@@ -1,0 +1,36 @@
+.oxiri {
+    position: relative;
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+
+    background: #008F76;
+
+    .copy {
+        position: absolute;
+        left: 570px;
+        right: 6.25%;
+        top: 13px;
+
+    }
+
+    p {
+        position: absolute;
+        width: 262px;
+        height: 36px;
+        left: 609px;
+        top: 12px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 200%;
+        /* identical to box height, or 36px */
+
+
+        color: #FFFFFF;
+
+    }
+}

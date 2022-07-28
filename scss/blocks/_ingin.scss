@@ -1,0 +1,119 @@
+.ingin {
+    margin-top: 100px;
+    width: 1440px;
+    height: 576px;
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+
+
+
+
+
+    h2 {
+        position: relative;
+        width: 899px;
+        height: 56px;
+        left: 271px;
+        top: 100px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 200%;
+        /* identical to box height, or 56px */
+
+
+        color: #212121;
+    }
+
+    h4 {
+        position: relative;
+        width: 333px;
+        height: 40px;
+        left: 554px;
+        top: 114px;
+
+
+
+        color: #949494;
+
+    }
+
+    .Donasi {
+        width: 344px;
+        height: 68px;
+        border: 1px solid $main-color;
+        text-align: center;
+        display: flex;
+        font-size: 24px;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+        position: relative;
+        left: 508px;
+        top: 150px;
+        background-color: $main-color;
+
+        p {
+            position: relative;
+            top: -5px;
+        }
+
+
+
+
+        img {
+            position: relative;
+            left: 40px;
+            width: 50px;
+        }
+    }
+
+    h6 {
+        position: relative;
+        width: 48px;
+        height: 40px;
+        top: 84px;
+        left: -130px;
+
+
+        color: #949494;
+    }
+
+    div {
+        width: 222px;
+        height: 60px;
+        border: 1px solid $main-color;
+        border-radius: $btn-radius;
+        -webkit-border-radius: $btn-radius;
+        -moz-border-radius: $btn-radius;
+        -ms-border-radius: $btn-radius;
+        -o-border-radius: $btn-radius;
+        position: relative;
+        top: 214px;
+        left: 580px;
+
+        p {
+            margin-top: 15px;
+            margin-left: 8px;
+            font-size: 24px;
+        }
+
+        .whatsap {
+            position: absolute;
+            left: 180px;
+            right: 0%;
+            top: 10px;
+            bottom: 0.35%;
+
+            background: $main-color;
+        }
+    }
+}

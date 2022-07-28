@@ -1,0 +1,225 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 106px;
+    gap: 48px;
+
+    width: 1443px;
+    height: 524px;
+
+    background: linear-gradient(180deg, #F6F5FF 0%, #FFFFFF 100%);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+
+
+    p {
+        margin-top: 100px;
+        font-size: 24px;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        position: relative;
+        left: -308px;
+        width: 596px;
+        height: 228px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+        border-radius: 5px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+
+
+
+        p {
+            width: 536px;
+            height: 64px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 200%;
+            /* or 32px */
+
+
+            color: #212121;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            position: relative;
+            top: 0px;
+        }
+
+
+
+        img {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            left: 114px;
+            top: 118px;
+
+            background: url(image.png);
+        }
+
+        .hatta {
+            position: relative;
+            width: 150px;
+            height: 32px;
+            left: 0px;
+            top: -20px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #212121;
+
+        }
+
+        .vakil {
+            position: relative;
+            width: 272px;
+            height: 32px;
+            left: 60px;
+            top: -125px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+
+        }
+    }
+
+    .div2 {
+        position: relative;
+        top: -275px;
+        left: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px;
+        gap: 24px;
+
+        width: 596px;
+        height: 228px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+        border-radius: 5px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+        p {
+            width: 536px;
+            height: 64px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 200%;
+            /* or 32px */
+
+
+            color: #212121;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            position: relative;
+            top: -130px;
+        }
+
+
+
+        img {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            left: 114px;
+            top: 118px;
+
+            background: url(image.png);
+        }
+
+        .hatta {
+            position: relative;
+            width: 150px;
+            height: 32px;
+            left: 170px;
+            top: -175px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #212121;
+
+        }
+
+        .vakil {
+            position: relative;
+            width: 272px;
+            height: 32px;
+            left: 170px;
+            top: -300px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+
+        }
+    }
+}

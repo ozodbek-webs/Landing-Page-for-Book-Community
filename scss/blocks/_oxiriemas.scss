@@ -1,0 +1,345 @@
+.oxiri_emas {
+    width: 1440px;
+    height: 380px;
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+
+
+
+    .img {
+        margin-top: 100px;
+        margin-left: 100px;
+        width: 52px;
+        height: 42px;
+
+        background: url(.png);
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    p {
+        width: 215px;
+        height: 36px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 200%;
+        /* identical to box height, or 36px */
+
+
+        color: #212121;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin-left: 176px;
+        margin-top: -45px;
+    }
+
+    h1 {
+        width: 64px;
+        height: 36px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 200%;
+        /* identical to box height, or 36px */
+
+
+        color: #212121;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-top: -30px;
+        margin-left: 697px;
+    }
+
+    h2 {
+        /* Tentang Kami */
+
+
+        width: 128px;
+        height: 36px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 200%;
+        /* identical to box height, or 36px */
+
+
+        color: #212121;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-top: -170px;
+        margin-left: 948px;
+    }
+
+    h3 {
+        width: 60px;
+        height: 36px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 200%;
+        /* identical to box height, or 36px */
+
+
+        color: #212121;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-top: -70px;
+        margin-left: 1226px;
+    }
+
+    .Galery {
+        .keg {
+            width: 109px;
+            height: 32px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin-left: 1226px;
+        }
+
+        p {
+            width: 109px;
+            height: 32px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin-left: 1226px;
+            margin-top: 4px;
+        }
+
+        h1 {
+            width: 109px;
+            height: 32px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin-left: 1226px;
+            margin-top: 4px;
+        }
+
+        h5 {
+            width: 109px;
+            height: 32px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin-left: 1226px;
+            margin-top: 2px;
+        }
+    }
+
+    .kami {
+        p {
+            width: 54px;
+            height: 32px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+            margin-left: 948px;
+            margin-top: 4px;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+    }
+
+    .kantak {
+        p {
+            width: 43px;
+            height: 32px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin-left: 697px;
+            margin-top: 10px;
+        }
+
+        h1 {
+            width: 43px;
+            height: 32px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin-left: 697px;
+            margin-top: 10px;
+        }
+
+        h6 {
+            width: 100px;
+            height: 32px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin-left: 697px;
+            margin-top: 20px;
+        }
+
+    }
+
+    .pojok {
+        margin-left: 100px;
+        margin-top: -100px;
+
+        .insta {
+            margin-left: 4px;
+            width: 24px;
+        }
+
+        .face {
+            margin-left: 44px;
+            width: 24px;
+        }
+
+        .you {
+            margin-left: 40px;
+            width: 24px;
+        }
+    }
+}

@@ -1,0 +1,153 @@
+.foiz {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 210px;
+
+    width: 1440px;
+    height: 296px;
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-top: 100px;
+
+
+
+
+    .foiz1 {
+        position: relative;
+        left: -150px;
+
+
+        h4 {
+            position: relative;
+            width: 84px;
+            height: 64px;
+            left: 100px;
+            top: -95px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 200%;
+            /* identical to box height, or 64px */
+
+            text-align: center;
+
+            color: #212121;
+        }
+
+        p {
+            position: relative;
+            width: 87px;
+            height: 32px;
+            left: 100px;
+            top: -95px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+        }
+
+    }
+    .foiz2 {
+        position: relative;
+        left: 70px;
+
+
+        h4 {
+            position: relative;
+            width: 84px;
+            height: 64px;
+            left: 100px;
+            top: -95px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 200%;
+            /* identical to box height, or 64px */
+
+            text-align: center;
+
+            color: #212121;
+        }
+
+        p {
+            position: relative;
+            width: 200px;
+            height: 32px;
+            left: 100px;
+            top: -95px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+        }
+        
+    }
+    .foiz3 {
+        position: relative;
+        left: 180px;
+
+
+        h4 {
+            position: relative;
+            width: 84px;
+            height: 64px;
+            left: 100px;
+            top: -95px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 200%;
+            /* identical to box height, or 64px */
+
+            text-align: center;
+
+            color: #212121;
+        }
+
+        p {
+            position: relative;
+            width: 200px;
+            height: 32px;
+            left: 100px;
+            top: -95px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 200%;
+            /* identical to box height, or 32px */
+
+
+            color: #949494;
+        }
+        
+    }
+}
